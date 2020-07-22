@@ -7,12 +7,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-li, a {
-    
+.options li, a {
     font-weight: 500;
     font-size: 18px;
     color: #F1FAEE;
     text-decoration: none;
+}
+
+h2{
+    font-size: 26px;
+    background-color: #A8DADC;
+    padding: 5px 10px;
+    color: white;
+    width: fit-content;
 }
 
 header {
@@ -45,6 +52,18 @@ header {
     color: #E63946;
 }
 
-.main{
+.main {
     padding: 10px 10%;
+}
+
+.article-box {
+    width: 60%;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.icon{
+    height: 32px;
+    width: 32px;
 }
